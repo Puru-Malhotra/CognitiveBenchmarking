@@ -7,34 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1973B1802CCF3A2B00BBAA56 /* ColorPickerWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973B17F2CCF3A2B00BBAA56 /* ColorPickerWheel.swift */; };
+		1973B1822CCF42B600BBAA56 /* SaturationSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973B1812CCF42AD00BBAA56 /* SaturationSlider.swift */; };
 		B7AF93262CC565500067F8F4 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B7AF93252CC565500067F8F4 /* RealityKitContent */; };
+		B7AF933E2CC5657D0067F8F4 /* CognitiveBenchmarkingVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF933A2CC5657D0067F8F4 /* CognitiveBenchmarkingVisionApp.swift */; };
+		B7AF93402CC5657D0067F8F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AF93372CC5657D0067F8F4 /* Preview Assets.xcassets */; };
+		B7AF93412CC5657D0067F8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AF93392CC5657D0067F8F4 /* Assets.xcassets */; };
+		B7AF93482CC565830067F8F4 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93432CC565830067F8F4 /* Codable+Extensions.swift */; };
+		B7AF93492CC565830067F8F4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93472CC565830067F8F4 /* HomeView.swift */; };
+		B7AF934A2CC565830067F8F4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93442CC565830067F8F4 /* Color+Extensions.swift */; };
+		B7AF934B2CC565830067F8F4 /* CognitiveBenchmarkingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93462CC565830067F8F4 /* CognitiveBenchmarkingModule.swift */; };
+		B7AF934C2CC565830067F8F4 /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93452CC565830067F8F4 /* MultipeerSession.swift */; };
+		B7AF93512CC565B20067F8F4 /* PassthroughNonVRMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF93502CC565B20067F8F4 /* PassthroughNonVRMode.swift */; };
+		B7AF93522CC565B20067F8F4 /* PassthroughModuleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF934D2CC565B20067F8F4 /* PassthroughModuleState.swift */; };
+		B7AF93532CC565B20067F8F4 /* PassthroughVRMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF934F2CC565B20067F8F4 /* PassthroughVRMode.swift */; };
+		B7AF93542CC565B20067F8F4 /* PassthroughLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF934E2CC565B20067F8F4 /* PassthroughLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1973B17F2CCF3A2B00BBAA56 /* ColorPickerWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerWheel.swift; sourceTree = "<group>"; };
+		1973B1812CCF42AD00BBAA56 /* SaturationSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationSlider.swift; sourceTree = "<group>"; };
 		B7AF93202CC565500067F8F4 /* CognitiveBenchmarkingVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitiveBenchmarkingVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AF93242CC565500067F8F4 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		B7AF93372CC5657D0067F8F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7AF93392CC5657D0067F8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7AF933A2CC5657D0067F8F4 /* CognitiveBenchmarkingVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveBenchmarkingVisionApp.swift; sourceTree = "<group>"; };
+		B7AF933C2CC5657D0067F8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7AF93432CC565830067F8F4 /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		B7AF93442CC565830067F8F4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B7AF93452CC565830067F8F4 /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		B7AF93462CC565830067F8F4 /* CognitiveBenchmarkingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveBenchmarkingModule.swift; sourceTree = "<group>"; };
+		B7AF93472CC565830067F8F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B7AF934D2CC565B20067F8F4 /* PassthroughModuleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughModuleState.swift; sourceTree = "<group>"; };
+		B7AF934E2CC565B20067F8F4 /* PassthroughLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughLoginView.swift; sourceTree = "<group>"; };
+		B7AF934F2CC565B20067F8F4 /* PassthroughVRMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughVRMode.swift; sourceTree = "<group>"; };
+		B7AF93502CC565B20067F8F4 /* PassthroughNonVRMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughNonVRMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B7AF93312CC565500067F8F4 /* Exceptions for "CognitiveBenchmarkingVision" folder in "CognitiveBenchmarkingVision" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B7AF931F2CC565500067F8F4 /* CognitiveBenchmarkingVision */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B7AF93222CC565500067F8F4 /* CognitiveBenchmarkingVision */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B7AF93312CC565500067F8F4 /* Exceptions for "CognitiveBenchmarkingVision" folder in "CognitiveBenchmarkingVision" target */,
-			);
-			path = CognitiveBenchmarkingVision;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B7AF931D2CC565500067F8F4 /* Frameworks */ = {
@@ -51,7 +59,7 @@
 		B7AF93172CC565500067F8F4 = {
 			isa = PBXGroup;
 			children = (
-				B7AF93222CC565500067F8F4 /* CognitiveBenchmarkingVision */,
+				B7AF933D2CC5657D0067F8F4 /* CognitiveBenchmarkingVision */,
 				B7AF93232CC565500067F8F4 /* Packages */,
 				B7AF93212CC565500067F8F4 /* Products */,
 			);
@@ -73,6 +81,44 @@
 			path = Packages;
 			sourceTree = "<group>";
 		};
+		B7AF93382CC5657D0067F8F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF93372CC5657D0067F8F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7AF933D2CC5657D0067F8F4 /* CognitiveBenchmarkingVision */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF93432CC565830067F8F4 /* Codable+Extensions.swift */,
+				B7AF93442CC565830067F8F4 /* Color+Extensions.swift */,
+				B7AF93452CC565830067F8F4 /* MultipeerSession.swift */,
+				B7AF93462CC565830067F8F4 /* CognitiveBenchmarkingModule.swift */,
+				B7AF93472CC565830067F8F4 /* HomeView.swift */,
+				1973B17F2CCF3A2B00BBAA56 /* ColorPickerWheel.swift */,
+				1973B1812CCF42AD00BBAA56 /* SaturationSlider.swift */,
+				B7AF93552CC565B80067F8F4 /* Passthrough */,
+				B7AF93382CC5657D0067F8F4 /* Preview Content */,
+				B7AF93392CC5657D0067F8F4 /* Assets.xcassets */,
+				B7AF933A2CC5657D0067F8F4 /* CognitiveBenchmarkingVisionApp.swift */,
+				B7AF933C2CC5657D0067F8F4 /* Info.plist */,
+			);
+			path = CognitiveBenchmarkingVision;
+			sourceTree = "<group>";
+		};
+		B7AF93552CC565B80067F8F4 /* Passthrough */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF934D2CC565B20067F8F4 /* PassthroughModuleState.swift */,
+				B7AF934E2CC565B20067F8F4 /* PassthroughLoginView.swift */,
+				B7AF934F2CC565B20067F8F4 /* PassthroughVRMode.swift */,
+				B7AF93502CC565B20067F8F4 /* PassthroughNonVRMode.swift */,
+			);
+			path = Passthrough;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,9 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B7AF93222CC565500067F8F4 /* CognitiveBenchmarkingVision */,
 			);
 			name = CognitiveBenchmarkingVision;
 			packageProductDependencies = (
@@ -138,6 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AF93402CC5657D0067F8F4 /* Preview Assets.xcassets in Resources */,
+				B7AF93412CC5657D0067F8F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AF933E2CC5657D0067F8F4 /* CognitiveBenchmarkingVisionApp.swift in Sources */,
+				1973B1802CCF3A2B00BBAA56 /* ColorPickerWheel.swift in Sources */,
+				B7AF93482CC565830067F8F4 /* Codable+Extensions.swift in Sources */,
+				B7AF93492CC565830067F8F4 /* HomeView.swift in Sources */,
+				B7AF934A2CC565830067F8F4 /* Color+Extensions.swift in Sources */,
+				B7AF934B2CC565830067F8F4 /* CognitiveBenchmarkingModule.swift in Sources */,
+				1973B1822CCF42B600BBAA56 /* SaturationSlider.swift in Sources */,
+				B7AF934C2CC565830067F8F4 /* MultipeerSession.swift in Sources */,
+				B7AF93512CC565B20067F8F4 /* PassthroughNonVRMode.swift in Sources */,
+				B7AF93522CC565B20067F8F4 /* PassthroughModuleState.swift in Sources */,
+				B7AF93532CC565B20067F8F4 /* PassthroughVRMode.swift in Sources */,
+				B7AF93542CC565B20067F8F4 /* PassthroughLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,18 +219,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CognitiveBenchmarkingVision/Preview Content\"";
-				DEVELOPMENT_TEAM = 6MTCHYNPAT;
+				DEVELOPMENT_TEAM = C568L4ZQKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Requires access.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rahulon.CognitiveBenchmarkingVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
@@ -188,18 +249,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CognitiveBenchmarkingVision/Preview Content\"";
-				DEVELOPMENT_TEAM = 6MTCHYNPAT;
+				DEVELOPMENT_TEAM = C568L4ZQKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Requires access.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rahulon.CognitiveBenchmarkingVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;

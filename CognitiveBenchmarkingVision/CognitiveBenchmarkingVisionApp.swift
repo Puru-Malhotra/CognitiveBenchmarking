@@ -11,7 +11,7 @@ import SwiftUI
 struct CognitiveBenchmarkingVisionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
