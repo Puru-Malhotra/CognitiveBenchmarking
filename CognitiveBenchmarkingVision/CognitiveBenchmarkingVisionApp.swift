@@ -13,5 +13,10 @@ struct CognitiveBenchmarkingVisionApp: App {
         WindowGroup {
             HomeView()
         }
+        #if os(macOS)
+        .windowIdealSize(.fitToContent)
+        #else
+        .defaultSize(.init(width: 800, height: 600))
+        #endif
     }
 }

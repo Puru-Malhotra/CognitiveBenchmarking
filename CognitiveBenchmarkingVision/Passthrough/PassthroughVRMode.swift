@@ -15,7 +15,7 @@ struct PassthroughVRMode: View {
             #if os(macOS)
             RoundedRectangle(cornerRadius: 16.0)
                 .fill(moduleState.currentColor)
-                .frame(width: 200, height: 200)
+                .frame(width: 500, height: 500)
             #else
             if !moduleState.multipeerSession.connectedPeers.isEmpty {
                 PassthroughVRModeVision()
@@ -44,11 +44,8 @@ struct PassthroughVRModeVision: View {
         @Bindable var moduleState = moduleState
 
         VStack {
-//                RoundedRectangle(cornerRadius: 16.0)
-//                    .fill(moduleState.currentlySelectedColor)
-//                    .frame(width: 200, height: 200)
+            Spacer()
 
-//                ColorPicker("Color", selection: $moduleState.currentlySelectedColor)
             HStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 8.0)
                     .fill(moduleState.currentlySelectedColor)
@@ -59,7 +56,7 @@ struct PassthroughVRModeVision: View {
                     brightness: $brightness,
                     saturation: $saturation
                 )
-                .frame(width: 350, height: 350)
+                .frame(width: 350, height: 325)
             }
             
             HStack {
@@ -70,11 +67,19 @@ struct PassthroughVRModeVision: View {
                     .frame(width: 300, height: 40)
             }
 
+            Spacer()
+
 
             Button("Next") {
                 moduleState.userDidSelectColor()
             }
+            .padding(.bottom, 16)
         }
     }
+}
+
+#Preview(windowStyle: .automatic, traits: .fixedLayout(width: 800, height: 600)) {
+    PassthroughVRMode()
+        .environment(PassthroughModuleState())
 }
 #endif
