@@ -18,31 +18,41 @@ struct PassthroughNonVRMode: View {
             HStack {
                 RoundedRectangle(cornerRadius: 16.0)
                     .fill(moduleState.currentColor)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 300, height: 300)
 
                 Divider()
 
                 RoundedRectangle(cornerRadius: 16.0)
                     .fill(moduleState.currentlySelectedColor)
-                    .frame(width: 200, height: 200)
-                
+                    .frame(width: 300, height: 300)
+
                 VStack {
                     CustomColorPickerWheel(
                         bgColor: $moduleState.currentlySelectedColor,
                         brightness: $brightness,
                         saturation: $saturation
                     )
-                    .frame(width: 350, height: 350)
-                    
-
-                    SaturationSlider(value: $saturation, color: moduleState.currentlySelectedColor)
-                        .frame(width: 300, height: 40)
+                    .frame(width: 350, height: 325)
                 }
             }
-            
+
+            HStack {
+                Spacer()
+                    .frame(width: 600)
+
+                SaturationSlider(value: $saturation, color: moduleState.currentlySelectedColor)
+                    .frame(width: 275, height: 30)
+            }
+
             Button("Next") {
                 moduleState.moveToNextColor()
             }
         }
+        .padding()
     }
+}
+
+#Preview {
+    PassthroughNonVRMode()
+        .environment(PassthroughModuleState())
 }
